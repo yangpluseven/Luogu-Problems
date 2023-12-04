@@ -2,3 +2,5 @@
 /.vscode/
 # ignore all the .docx files
 *.docx
+# ignore all executable file
+*.exe
