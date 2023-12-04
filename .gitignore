@@ -1,0 +1,4 @@
+# ignore vscode config file
+/.vscode/
+# ignore all the .docx files
+*.docx
