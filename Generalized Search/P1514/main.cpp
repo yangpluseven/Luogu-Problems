@@ -1,10 +1,10 @@
 #include <bits/stdc++.h>
 #define MXN 505
 #define MXM 505
-using namespace std;
-
 #define nx x + xx[i]
 #define ny y + yy[i]
+using namespace std;
+
 int l[MXN][MXM], r[MXN][MXM];
 int high[MXN][MXM];
 int n, m;
