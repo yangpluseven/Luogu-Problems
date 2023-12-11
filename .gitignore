@@ -1,6 +1,6 @@
-# ignore vscode config file
+# ignore vscode config files
 /.vscode/
 # ignore all the .docx files
 *.docx
-# ignore all executable file
+# ignore all executable files
 *.exe
