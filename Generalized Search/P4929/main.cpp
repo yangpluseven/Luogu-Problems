@@ -30,10 +30,12 @@ void init()
     next_idx = m + 1;
 }
 
+// 按顺序添加节点，从左上到右下，否则逻辑错误
 void add_node(int r, int c)
 {
     nodes[next_idx].row = r;
     nodes[next_idx].col = c;
+    // 前提是该节点下方无节点
     nodes[next_idx].up = nodes[c].up;
     nodes[next_idx].down = c;
     nodes[nodes[next_idx].up].down = next_idx;
@@ -46,6 +48,7 @@ void add_node(int r, int c)
     }
     else
     {
+        // 前提是该节点右侧无节点
         nodes[next_idx].left = nodes[rows[r]].left;
         nodes[next_idx].right = rows[r];
         nodes[nodes[next_idx].left].right = next_idx;
