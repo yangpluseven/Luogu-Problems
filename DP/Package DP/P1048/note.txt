@@ -1,0 +1,13 @@
+(Obviously a 01 package DP problem)
+1 Original data structure: liner (soft) -> array
+1.1. Try greedy
+1.1.1 Theoretical analysis (fail)
+1.2. Try DP
+1.2.1. Find transition equation
+1.2.1.1. Find the base case
+1.2.1.1.1. Find the critical condition
+1.2.1.1.1.1. Tool data structure: transition equation -> multidimension array (n=2)
+1.2.1.1.1.1.1 Implementation (success)
+
+*1.2.1 dp[i][j]: Considering the first i ITEMS, the maximum value when there is j SPACE left\
+in this problem, ITEMS: herbs, SPACE: time
